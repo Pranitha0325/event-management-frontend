@@ -1,0 +1,33 @@
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+  /* 33.33% for 3 items, subtracting grid gap */
+  grid-gap: 20px;
+}
+.blog-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #e1edf2;
+  list-style: none;
+  position: relative;
+}
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.buttons {
+  background-color: #793a7a;
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  border-color: white;
+  margin-top: 20px;
+}
